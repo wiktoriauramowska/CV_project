@@ -223,7 +223,7 @@ while loop:
         skills_languages()
     elif choice == 5:
         print("Menu 5 has been selected")
-        contact_details()
+        contact_details() 
     elif choice == 6:
         print("Menu 6 has been selected")
         exit_valid()
