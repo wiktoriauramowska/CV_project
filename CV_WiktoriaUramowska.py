@@ -134,7 +134,8 @@ def skills_languages():
 # function that contains my contact details
 # it contains a validation, where user decides when to come back to the main menu
 def contact_details():
-    print("This consists of my contact details")
+    # print("This consists of my contact details")
+    print_slow("\nPlease refer to my CV or LinkedIn profile for more details!"\n)
     next_section = input("Press y when you are ready to proceed ")
     if next_section == "y" or next_section == "Y":
         cls()
